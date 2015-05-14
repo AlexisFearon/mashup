@@ -1,30 +1,15 @@
-# Mashup project
+I made a mashup of the Google Maps API and the Twitter API. It looks for all tweets within the Latidude and Longitudue points of the Woolworth Building (40.7122, -74.0081)
 
-This project is open-ended!  Requirements:
+Associated documentation can be found for Google here:
 
-* Build a site that uses data from at least one external API in an interesting, interactive way.
-* Replace this README with a description of the project.
-* You are welcome to use any 3rd-party libraries/frameworks – just load them from a CDN (e.g. [cdnjs](http://cdnjs.com)), or put them under the [`vendor/`](vendor/) folder.
+https://developers.google.com/maps/documentation/javascript/reference?csw=1#MapOptions
 
-The JS code should be **non-trivial**.  That being said... start simple!  No server-side coding is required, but feel free to create a backend in whatever language if you like, if you need one.
+https://developers.google.com/maps/documentation/javascript/examples/marker-animations
 
-* [AJAX demos](https://github.com/advanced-js/deck/tree/gh-pages/demos/ajax)
-* [list of API suggestions](https://gist.github.com/afeld/4952991)
-* [inspiration?](http://www.programmableweb.com/mashups)
+And for twitter here:
 
-## V1
+https://dev.twitter.com/overview/api/tweets
 
-First pass.
+Credit:
 
-## V2
-
-Iterate!
-
-* Refactor
-* Add a new feature
-
-## Bonus points
-
-* automated tests
-    * [Sinon.js fakeServer](http://sinonjs.org/docs/#fakeServer) may be helpful
-* fancy interactivity/animations
+I'm using a json file created by Pim Linders for another course I took in which he instructed. Here is the link referenced in my AJAX: http://ga-twitter-map.herokuapp.com/search, https://github.com/pimlinders
